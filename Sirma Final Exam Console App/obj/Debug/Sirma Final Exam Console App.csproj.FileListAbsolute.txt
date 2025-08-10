@@ -14,3 +14,11 @@ C:\Users\mchav\Projects\C#\Sirma Final Exam Console App\Sirma Final Exam Console
 C:\Users\mchav\Projects\C#\Sirma Final Exam Console App\Sirma Final Exam Console App\obj\Debug\Sirma Final Exam Console App.csproj.CoreCompileInputs.cache
 C:\Users\mchav\Projects\C#\Sirma Final Exam Console App\Sirma Final Exam Console App\obj\Debug\Sirma Final Exam Console App.exe
 C:\Users\mchav\Projects\C#\Sirma Final Exam Console App\Sirma Final Exam Console App\obj\Debug\Sirma Final Exam Console App.pdb
+D:\Projects\Sirma-Retake\Sirma Final Exam Console App\bin\Debug\Sirma Final Exam Console App.exe.config
+D:\Projects\Sirma-Retake\Sirma Final Exam Console App\bin\Debug\Sirma Final Exam Console App.exe
+D:\Projects\Sirma-Retake\Sirma Final Exam Console App\bin\Debug\Sirma Final Exam Console App.pdb
+D:\Projects\Sirma-Retake\Sirma Final Exam Console App\obj\Debug\Sirma Final Exam Console App.csproj.AssemblyReference.cache
+D:\Projects\Sirma-Retake\Sirma Final Exam Console App\obj\Debug\Sirma Final Exam Console App.exe.config
+D:\Projects\Sirma-Retake\Sirma Final Exam Console App\obj\Debug\Sirma Final Exam Console App.csproj.CoreCompileInputs.cache
+D:\Projects\Sirma-Retake\Sirma Final Exam Console App\obj\Debug\Sirma Final Exam Console App.exe
+D:\Projects\Sirma-Retake\Sirma Final Exam Console App\obj\Debug\Sirma Final Exam Console App.pdb

@@ -11,11 +11,12 @@ namespace Sirma_Final_Exam_Console_App.Model
     internal static class db
     {
         private static string serverName = "localhost\\MSSQLSERVERDEV";  //Change with the name with your SQL Server instance
-        private static string databaseName = "SIRMA_EXAM"; // Change to your database name
+        private static string databaseName = "SIRMA_EXAM";
         private static string connectionString = $"Server={serverName};Database={databaseName};Trusted_Connection=True;";
-        static SqlConnection connection = new SqlConnection(connectionString);
+        public static SqlConnection connection = new SqlConnection(connectionString);
         public static void dbConnect()
         {
+            Console.WriteLine("Connecting to database...");
             try
             {
                 connection.Open();
@@ -24,6 +25,8 @@ namespace Sirma_Final_Exam_Console_App.Model
             catch (SqlException ex)
             {
                 Console.WriteLine($"Error connecting to the database: {ex.Message}");
+                Console.ReadKey();
+                Environment.Exit(1);
             }
         }
 
@@ -39,7 +42,7 @@ namespace Sirma_Final_Exam_Console_App.Model
             }
             catch (SqlException ex)
             {
-                Console.WriteLine($"Error disconnecting from the database: {ex.Message}");
+                Console.WriteLine($"Error disconnecting from the database: {ex.Message}");               
             }
         }
 
