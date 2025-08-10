@@ -1,0 +1,16 @@
+C:\Users\mchav\Projects\C#\Sirma FInal Exam\Sirma Final Exam Console App\Sirma Final Exam Console App\bin\Debug\Sirma Final Exam Console App.exe.config
+C:\Users\mchav\Projects\C#\Sirma FInal Exam\Sirma Final Exam Console App\Sirma Final Exam Console App\bin\Debug\Sirma Final Exam Console App.exe
+C:\Users\mchav\Projects\C#\Sirma FInal Exam\Sirma Final Exam Console App\Sirma Final Exam Console App\bin\Debug\Sirma Final Exam Console App.pdb
+C:\Users\mchav\Projects\C#\Sirma FInal Exam\Sirma Final Exam Console App\Sirma Final Exam Console App\obj\Debug\Sirma Final Exam Console App.csproj.AssemblyReference.cache
+C:\Users\mchav\Projects\C#\Sirma FInal Exam\Sirma Final Exam Console App\Sirma Final Exam Console App\obj\Debug\Sirma Final Exam Console App.csproj.CoreCompileInputs.cache
+C:\Users\mchav\Projects\C#\Sirma FInal Exam\Sirma Final Exam Console App\Sirma Final Exam Console App\obj\Debug\Sirma Final Exam Console App.exe
+C:\Users\mchav\Projects\C#\Sirma FInal Exam\Sirma Final Exam Console App\Sirma Final Exam Console App\obj\Debug\Sirma Final Exam Console App.pdb
+C:\Users\mchav\Projects\C#\Sirma FInal Exam\Sirma Final Exam Console App\Sirma Final Exam Console App\obj\Debug\Sirma Final Exam Console App.exe.config
+C:\Users\mchav\Projects\C#\Sirma Final Exam Console App\Sirma Final Exam Console App\bin\Debug\Sirma Final Exam Console App.exe.config
+C:\Users\mchav\Projects\C#\Sirma Final Exam Console App\Sirma Final Exam Console App\bin\Debug\Sirma Final Exam Console App.exe
+C:\Users\mchav\Projects\C#\Sirma Final Exam Console App\Sirma Final Exam Console App\bin\Debug\Sirma Final Exam Console App.pdb
+C:\Users\mchav\Projects\C#\Sirma Final Exam Console App\Sirma Final Exam Console App\obj\Debug\Sirma Final Exam Console App.csproj.AssemblyReference.cache
+C:\Users\mchav\Projects\C#\Sirma Final Exam Console App\Sirma Final Exam Console App\obj\Debug\Sirma Final Exam Console App.exe.config
+C:\Users\mchav\Projects\C#\Sirma Final Exam Console App\Sirma Final Exam Console App\obj\Debug\Sirma Final Exam Console App.csproj.CoreCompileInputs.cache
+C:\Users\mchav\Projects\C#\Sirma Final Exam Console App\Sirma Final Exam Console App\obj\Debug\Sirma Final Exam Console App.exe
+C:\Users\mchav\Projects\C#\Sirma Final Exam Console App\Sirma Final Exam Console App\obj\Debug\Sirma Final Exam Console App.pdb
