@@ -41,10 +41,38 @@ namespace Sirma_Final_Exam_Console_App.Controller
                     RecordsManipulation.InsertActor(newActor, insertActorSql, connection);
                     break;
                 case "5":
-                    // InsertMovie logic here
+                    Console.WriteLine("Enter movie title:");
+                    int MovieID = RecordsManipulation.GetLastREcordID("Movie", connection) + 1;
+                    string movieTitle = Console.ReadLine();
+                    Console.WriteLine("Enter movie release date (year/month/date):");
+                    DateTime releaseDate = DateTime.Parse(Console.ReadLine());
+                    Movie newMovie = new Movie
+                    {
+                        Id = MovieID,
+                        Title = movieTitle,
+                        ReleaseDate = releaseDate
+                    };
+                    string insertMovieSql = QueryStings.InsertQueries["InsertMovie"];
+                    RecordsManipulation.InsertMovie(newMovie, insertMovieSql, connection);
                     break;
                 case "6":
-                    // InsertRole logic here
+                    Console.WriteLine("Enter role name:");
+                    int RoleID = RecordsManipulation.GetLastREcordID("Role", connection) + 1;
+                    Console.WriteLine("Enter actor id");
+                    int ActorIDRole = int.Parse(Console.ReadLine());
+                    Console.WriteLine("Enter movie id");
+                    int MovieIDRole = int.Parse(Console.ReadLine());
+                    Console.WriteLine("Enter character name:");
+                    string characterName = Console.ReadLine();
+                    Role newRole = new Role
+                    {
+                        Id = RoleID,
+                        ActorId = ActorIDRole,
+                        MovieId = MovieIDRole,
+                        CharacterName = characterName
+                    };
+                    string insertRoleSql = QueryStings.InsertQueries["InsertRole"];
+                    RecordsManipulation.InsertRole(newRole, insertRoleSql, connection);
                     break;
                 case "7":
                     // UpdateActor logic here
