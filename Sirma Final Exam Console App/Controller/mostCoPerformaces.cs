@@ -39,7 +39,7 @@ namespace Sirma_Final_Exam_Console_App.Controller
                         {
                             
                             var currentMovies = result[actorsPair].Value;
-                            //We don't want to add the same movie again if duplicated
+                            //We don't want to add the same movie with the same actors pair again if duplicated
                             if (currentMovies.Add(movie.Key))
                                 {
                                 var currentCount = result[actorsPair].Key;
