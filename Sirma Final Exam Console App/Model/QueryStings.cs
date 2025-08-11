@@ -16,7 +16,6 @@ namespace Sirma_Final_Exam_Console_App.Model
             { "GetActors", "SELECT * FROM tbl_Actors" },
             { "GetMovies", "SELECT * FROM tbl_Movies" },
             { "GetRoles", "SELECT tbl_Roles.RoleId, tbl_Roles.ROLENAME, tbl_Actors.ActorID, tbl_Actors.FullName, tbl_Movies.MovieID, tbl_Movies.Title  FROM tbl_Roles INNER JOIN tbl_Actors ON tbl_Actors.ActorID = tbl_Roles.ActorID INNER JOIN tbl_Movies ON tbl_Movies.MovieID = tbl_Roles.MovieID" },
-            //{ "GetMostCoPerformances", "SELECT Actor1Id, Actor2Id, COUNT(*) AS CoPerformanceCount FROM Roles GROUP BY Actor1Id, Actor2Id HAVING COUNT(*) > 1" }
         };
 
         public static Dictionary<String, String> InsertQueries = new Dictionary<string, string>
