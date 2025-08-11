@@ -2,14 +2,40 @@
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Sirma_Final_Exam_Console_App.Model
 {
     internal static class RecordsManipulation
     {
+        public static void InitialInsert(SqlConnection connection, List<Actor> actors, List<Movie> movies, List<Role> roles)
+        {
+            foreach (var actor in actors)
+            {
+                InsertActor(actor, QueryStings.InsertQueries["InsertActor"], connection);
+            }
+            foreach (var movie in movies)
+            {
+                InsertMovie(movie, QueryStings.InsertQueries["InsertMovie"], connection);
+            }
+            foreach (var role in roles)
+            {
+                InsertRole(role, QueryStings.InsertQueries["InsertRole"], connection);
+            }
+        }
+        public static string GetRecordById(string command, int id, SqlConnection connection)
+        {
+            string query = QueryStings.GetRecordById[command];
+            using (SqlCommand sqlCommand = new SqlCommand(query, connection))
+            {
+                sqlCommand.Parameters.AddWithValue("@Id", id);
+                object result = sqlCommand.ExecuteScalar();
+                if (result != null)
+                {
+                    return result.ToString();
+                }
+                return null;
+            }
+        }
         public static int GetLastREcordID(string Entity, SqlConnection connection)
         {
             string IDColumn;
@@ -31,7 +57,7 @@ namespace Sirma_Final_Exam_Console_App.Model
                 default:
                     throw new ArgumentException("Invalid table name");
             }
-            string query = $"SELECT MAX({IDColumn}) FROM {tblName}";
+            string query = $"SELECT MAX({IDColumn}) FROM {tblName} ";
             using (SqlCommand sqlCommand = new SqlCommand(query, connection))
             {
                 object result = sqlCommand.ExecuteScalar();
@@ -56,12 +82,9 @@ namespace Sirma_Final_Exam_Console_App.Model
                             for (int i = 0; i < reader.FieldCount; i++)
                             {
                                 Console.Write($"{reader.GetName(i)}: {reader[i]} ");
-                                if (i % 20 == 0)
-                                {
-                                    Console.WriteLine("Press any kaey to continue...");
-                                    Console.ReadKey();  
-                                }
+
                             }
+
                             Console.WriteLine();
                         }
                     }
@@ -82,7 +105,6 @@ namespace Sirma_Final_Exam_Console_App.Model
                 command.Parameters.AddWithValue("@FullName", actor.FullName);
                 command.Parameters.AddWithValue("@BirthDate", actor.BirthDate);
                 int rows = command.ExecuteNonQuery();
-                Console.WriteLine($"{rows} row(s) inserted.");
             }
         }
         public static void InsertMovie(Movie movie, string sql, SqlConnection connection)
@@ -93,7 +115,6 @@ namespace Sirma_Final_Exam_Console_App.Model
                 command.Parameters.AddWithValue("@Title", movie.Title);
                 command.Parameters.AddWithValue("@ReleaseDate", movie.ReleaseDate);
                 int rows = command.ExecuteNonQuery();
-                Console.WriteLine($"{rows} row(s) inserted.");
             }
         }
 
@@ -104,9 +125,8 @@ namespace Sirma_Final_Exam_Console_App.Model
                 command.Parameters.AddWithValue("@RoleID", role.Id);
                 command.Parameters.AddWithValue("@ActorId", role.ActorId);
                 command.Parameters.AddWithValue("@MovieId", role.MovieId);
-                command.Parameters.AddWithValue("@ROLENAME", role.CharacterName);
+                command.Parameters.AddWithValue("@ROLENAME", string.IsNullOrEmpty(role.CharacterName) ? (object)DBNull.Value : role.CharacterName);
                 int rows = command.ExecuteNonQuery();
-                Console.WriteLine($"{rows} row(s) inserted.");
             }
         }
         //UPDATION

@@ -1,10 +1,6 @@
 ﻿//First add Microsoft SQL client using console: "dotnet add package Microsoft.Data.SqlClient"
 using System;
-using System.Collections.Generic;
 using System.Data.SqlClient;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Sirma_Final_Exam_Console_App.Model
 {
@@ -42,7 +38,7 @@ namespace Sirma_Final_Exam_Console_App.Model
             }
             catch (SqlException ex)
             {
-                Console.WriteLine($"Error disconnecting from the database: {ex.Message}");               
+                Console.WriteLine($"Error disconnecting from the database: {ex.Message}");
             }
         }
 

@@ -1,9 +1,5 @@
-﻿using Sirma_Final_Exam_Console_App.Model;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Sirma_Final_Exam_Console_App.View
 {
@@ -23,6 +19,7 @@ namespace Sirma_Final_Exam_Console_App.View
             "10. DeleteActor",
             "11. DeleteMovie",
             "12. DeleteRole",
+            "13. Exit"
         };
 
         public static void GetCRUDCommand(ref string option)
@@ -30,7 +27,7 @@ namespace Sirma_Final_Exam_Console_App.View
             foreach (var command in Commands)
             {
                 Console.WriteLine(command);
-                if (command == "3. ListRoles" || command == "6. InsertRole" || command == "9. UpdateRole")
+                if (command == "3. ListRoles" || command == "6. InsertRole" || command == "9. UpdateRole" || command == "12. DeleteRole")
                 {
                     Console.WriteLine();
                 }

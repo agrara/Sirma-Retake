@@ -1,13 +1,9 @@
 ﻿using Sirma_Final_Exam_Console_App.Controller;
 using Sirma_Final_Exam_Console_App.Entities;
-using Sirma_Final_Exam_Console_App.View;
 using Sirma_Final_Exam_Console_App.Model;
+using Sirma_Final_Exam_Console_App.View;
 using System;
 using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Sirma_Final_Exam_Console_App
 {
@@ -30,11 +26,29 @@ namespace Sirma_Final_Exam_Console_App
             ShowMostCoperformingActors.Show(mostPerformances, actors, movies);
 
             db.dbConnect();
-            RecordsManipulation.ListRecords("GetActors", db.connection);
+
+            string importData = string.Empty;
+            ImportDataFromCSV.GetDecision(ref importData);
+            switch (importData)
+            {
+                case "y":
+                    Model.RecordsManipulation.InitialInsert(db.connection, actors, movies, roles);
+                    break;
+
+            }
+
+            //Model.RecordsManipulation.ListRecords("GetActors", Model.db.connection);
+
             Console.WriteLine();
             string option = string.Empty;
-            GetCommands.GetCRUDCommand(ref option);
-            
+
+            while (option != "13")
+            {
+                GetCommands.GetCRUDCommand(ref option);
+                OptionController.ExecuteOption(option, db.connection);
+            }
+            OptionController.ExecuteOption(option, db.connection);
+
 
             db.dbDisconnect();
         }

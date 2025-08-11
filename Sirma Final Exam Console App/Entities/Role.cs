@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Sirma_Final_Exam_Console_App.Entities
+﻿namespace Sirma_Final_Exam_Console_App.Entities
 {
     internal class Role
     {

@@ -1,9 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Globalization;
+using System.Linq;
 
 namespace Sirma_Final_Exam_Console_App
 {
@@ -17,24 +15,25 @@ namespace Sirma_Final_Exam_Console_App
             {
                 string[] lineParts = line.Split(',');
                 if (lineParts.Length != 3) continue;
-                
-                    actors.Add(new Entities.Actor
-                    {
-                        Id = int.Parse(lineParts[0].Trim()),
-                        FullName = lineParts[1].Trim(),
-                        BirthDate = DateTime.Parse(lineParts[2].Trim())
-                    });
-                
+
+                actors.Add(new Entities.Actor
+                {
+                    Id = int.Parse(lineParts[0].Trim()),
+                    FullName = lineParts[1].Trim(),
+                    BirthDate = DateTime.Parse(lineParts[2].Trim())
+                });
+
             }
             return actors;
         }
 
-        public static List<Entities.Movie> LoadMovies(string filePath) {
+        public static List<Entities.Movie> LoadMovies(string filePath)
+        {
             List<Entities.Movie> movies = new List<Entities.Movie>();
             var lines = System.IO.File.ReadAllLines(filePath);
             foreach (string line in lines.Skip(1))
             {
-               string[] lineParts = line.Split(',');
+                string[] lineParts = line.Split(',');
                 if (lineParts.Length != 3) continue;
                 movies.Add(new Entities.Movie
                 {

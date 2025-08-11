@@ -45,10 +45,12 @@
   <ItemGroup>
     <Compile Include="Controller\CommandOptionController.cs" />
     <Compile Include="Controller\mostCoPerformaces.cs" />
+    <Compile Include="Controller\OptionController.cs" />
     <Compile Include="Entities\Actor.cs" />
     <Compile Include="Entities\Movie.cs" />
     <Compile Include="Entities\Role.cs" />
     <Compile Include="Model\db.cs" />
+    <Compile Include="View\ImportDataFromCSV.cs" />
     <Compile Include="Model\QueryStings.cs" />
     <Compile Include="Model\RecordsManipulation.cs" />
     <Compile Include="Program.cs" />

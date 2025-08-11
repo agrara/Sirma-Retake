@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data.SqlClient;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Sirma_Final_Exam_Console_App.Entities;
 using Sirma_Final_Exam_Console_App.Model;
-using Sirma_Final_Exam_Console_App.Entities;
+using System;
+using System.Data.SqlClient;
 
 
 namespace Sirma_Final_Exam_Console_App.Controller
