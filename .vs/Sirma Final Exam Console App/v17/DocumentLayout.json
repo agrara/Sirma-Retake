@@ -3,32 +3,32 @@
   "WorkspaceRootPath": "D:\\Projects\\Sirma-Retake\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C04484BA-5E8A-433C-9487-77269FD2FC23}|Sirma Final Exam Console App\\Sirma Final Exam Console App.csproj|d:\\projects\\sirma-retake\\sirma final exam console app\\controller\\commandoptioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C04484BA-5E8A-433C-9487-77269FD2FC23}|Sirma Final Exam Console App\\Sirma Final Exam Console App.csproj|solutionrelative:sirma final exam console app\\controller\\commandoptioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C04484BA-5E8A-433C-9487-77269FD2FC23}|Sirma Final Exam Console App\\Sirma Final Exam Console App.csproj|D:\\Projects\\Sirma-Retake\\sirma final exam console app\\model\\querystings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C04484BA-5E8A-433C-9487-77269FD2FC23}|Sirma Final Exam Console App\\Sirma Final Exam Console App.csproj|solutionrelative:sirma final exam console app\\model\\querystings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C04484BA-5E8A-433C-9487-77269FD2FC23}|Sirma Final Exam Console App\\Sirma Final Exam Console App.csproj|d:\\projects\\sirma-retake\\sirma final exam console app\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C04484BA-5E8A-433C-9487-77269FD2FC23}|Sirma Final Exam Console App\\Sirma Final Exam Console App.csproj|solutionrelative:sirma final exam console app\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C04484BA-5E8A-433C-9487-77269FD2FC23}|Sirma Final Exam Console App\\Sirma Final Exam Console App.csproj|D:\\Projects\\Sirma-Retake\\sirma final exam console app\\view\\getcommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C04484BA-5E8A-433C-9487-77269FD2FC23}|Sirma Final Exam Console App\\Sirma Final Exam Console App.csproj|solutionrelative:sirma final exam console app\\view\\getcommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C04484BA-5E8A-433C-9487-77269FD2FC23}|Sirma Final Exam Console App\\Sirma Final Exam Console App.csproj|D:\\Projects\\Sirma-Retake\\sirma final exam console app\\model\\recordsmanipulation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C04484BA-5E8A-433C-9487-77269FD2FC23}|Sirma Final Exam Console App\\Sirma Final Exam Console App.csproj|solutionrelative:sirma final exam console app\\model\\recordsmanipulation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C04484BA-5E8A-433C-9487-77269FD2FC23}|Sirma Final Exam Console App\\Sirma Final Exam Console App.csproj|D:\\Projects\\Sirma-Retake\\sirma final exam console app\\view\\getcommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C04484BA-5E8A-433C-9487-77269FD2FC23}|Sirma Final Exam Console App\\Sirma Final Exam Console App.csproj|solutionrelative:sirma final exam console app\\view\\getcommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C04484BA-5E8A-433C-9487-77269FD2FC23}|Sirma Final Exam Console App\\Sirma Final Exam Console App.csproj|D:\\Projects\\Sirma-Retake\\sirma final exam console app\\entities\\actor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C04484BA-5E8A-433C-9487-77269FD2FC23}|Sirma Final Exam Console App\\Sirma Final Exam Console App.csproj|solutionrelative:sirma final exam console app\\entities\\actor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C04484BA-5E8A-433C-9487-77269FD2FC23}|Sirma Final Exam Console App\\Sirma Final Exam Console App.csproj|d:\\projects\\sirma-retake\\sirma final exam console app\\controller\\commandoptioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C04484BA-5E8A-433C-9487-77269FD2FC23}|Sirma Final Exam Console App\\Sirma Final Exam Console App.csproj|solutionrelative:sirma final exam console app\\controller\\commandoptioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C04484BA-5E8A-433C-9487-77269FD2FC23}|Sirma Final Exam Console App\\Sirma Final Exam Console App.csproj|D:\\Projects\\Sirma-Retake\\sirma final exam console app\\createdatabaseandtables.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
       "RelativeMoniker": "D:0:0:{C04484BA-5E8A-433C-9487-77269FD2FC23}|Sirma Final Exam Console App\\Sirma Final Exam Console App.csproj|solutionrelative:sirma final exam console app\\createdatabaseandtables.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C04484BA-5E8A-433C-9487-77269FD2FC23}|Sirma Final Exam Console App\\Sirma Final Exam Console App.csproj|D:\\Projects\\Sirma-Retake\\sirma final exam console app\\model\\querystings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C04484BA-5E8A-433C-9487-77269FD2FC23}|Sirma Final Exam Console App\\Sirma Final Exam Console App.csproj|solutionrelative:sirma final exam console app\\model\\querystings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C04484BA-5E8A-433C-9487-77269FD2FC23}|Sirma Final Exam Console App\\Sirma Final Exam Console App.csproj|D:\\Projects\\Sirma-Retake\\sirma final exam console app\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C04484BA-5E8A-433C-9487-77269FD2FC23}|Sirma Final Exam Console App\\Sirma Final Exam Console App.csproj|solutionrelative:sirma final exam console app\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C04484BA-5E8A-433C-9487-77269FD2FC23}|Sirma Final Exam Console App\\Sirma Final Exam Console App.csproj|D:\\Projects\\Sirma-Retake\\sirma final exam console app\\entities\\actor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C04484BA-5E8A-433C-9487-77269FD2FC23}|Sirma Final Exam Console App\\Sirma Final Exam Console App.csproj|solutionrelative:sirma final exam console app\\entities\\actor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C04484BA-5E8A-433C-9487-77269FD2FC23}|Sirma Final Exam Console App\\Sirma Final Exam Console App.csproj|D:\\Projects\\Sirma-Retake\\sirma final exam console app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -41,6 +41,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{C04484BA-5E8A-433C-9487-77269FD2FC23}|Sirma Final Exam Console App\\Sirma Final Exam Console App.csproj|D:\\Projects\\Sirma-Retake\\sirma final exam console app\\view\\showmostcoperformingactors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C04484BA-5E8A-433C-9487-77269FD2FC23}|Sirma Final Exam Console App\\Sirma Final Exam Console App.csproj|solutionrelative:sirma final exam console app\\view\\showmostcoperformingactors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C04484BA-5E8A-433C-9487-77269FD2FC23}|Sirma Final Exam Console App\\Sirma Final Exam Console App.csproj|d:\\projects\\sirma-retake\\sirma final exam console app\\createdatabaseandtables.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{C04484BA-5E8A-433C-9487-77269FD2FC23}|Sirma Final Exam Console App\\Sirma Final Exam Console App.csproj|solutionrelative:sirma final exam console app\\createdatabaseandtables.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,11 +54,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Role.cs",
               "DocumentMoniker": "D:\\Projects\\Sirma-Retake\\Sirma Final Exam Console App\\Entities\\Role.cs",
               "RelativeDocumentMoniker": "Sirma Final Exam Console App\\Entities\\Role.cs",
@@ -62,12 +66,11 @@
               "RelativeToolTip": "Sirma Final Exam Console App\\Entities\\Role.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-10T22:46:28.457Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-10T22:46:28.457Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Actor.cs",
               "DocumentMoniker": "D:\\Projects\\Sirma-Retake\\Sirma Final Exam Console App\\Entities\\Actor.cs",
               "RelativeDocumentMoniker": "Sirma Final Exam Console App\\Entities\\Actor.cs",
@@ -79,7 +82,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "CommandOptionController.cs",
               "DocumentMoniker": "D:\\Projects\\Sirma-Retake\\Sirma Final Exam Console App\\Controller\\CommandOptionController.cs",
               "RelativeDocumentMoniker": "Sirma Final Exam Console App\\Controller\\CommandOptionController.cs",
@@ -92,31 +95,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "GetCommands.cs",
               "DocumentMoniker": "D:\\Projects\\Sirma-Retake\\Sirma Final Exam Console App\\View\\GetCommands.cs",
               "RelativeDocumentMoniker": "Sirma Final Exam Console App\\View\\GetCommands.cs",
               "ToolTip": "D:\\Projects\\Sirma-Retake\\Sirma Final Exam Console App\\View\\GetCommands.cs",
               "RelativeToolTip": "Sirma Final Exam Console App\\View\\GetCommands.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACAAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-10T21:26:52.224Z"
+              "WhenOpened": "2025-08-10T21:26:52.224Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "RecordsManipulation.cs",
               "DocumentMoniker": "D:\\Projects\\Sirma-Retake\\Sirma Final Exam Console App\\Model\\RecordsManipulation.cs",
               "RelativeDocumentMoniker": "Sirma Final Exam Console App\\Model\\RecordsManipulation.cs",
               "ToolTip": "D:\\Projects\\Sirma-Retake\\Sirma Final Exam Console App\\Model\\RecordsManipulation.cs",
               "RelativeToolTip": "Sirma Final Exam Console App\\Model\\RecordsManipulation.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAYwA8AAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAmwA8AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-10T20:34:05.107Z"
+              "WhenOpened": "2025-08-10T20:34:05.107Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "QueryStings.cs",
               "DocumentMoniker": "D:\\Projects\\Sirma-Retake\\Sirma Final Exam Console App\\Model\\QueryStings.cs",
               "RelativeDocumentMoniker": "Sirma Final Exam Console App\\Model\\QueryStings.cs",
@@ -124,19 +129,19 @@
               "RelativeToolTip": "Sirma Final Exam Console App\\Model\\QueryStings.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAqwCEAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-10T20:23:54.318Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-10T20:23:54.318Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "CreateDatabaseAndTables.sql ",
               "DocumentMoniker": "D:\\Projects\\Sirma-Retake\\Sirma Final Exam Console App\\CreateDatabaseAndTables.sql",
               "RelativeDocumentMoniker": "Sirma Final Exam Console App\\CreateDatabaseAndTables.sql",
               "ToolTip": "D:\\Projects\\Sirma-Retake\\Sirma Final Exam Console App\\CreateDatabaseAndTables.sql",
               "RelativeToolTip": "Sirma Final Exam Console App\\CreateDatabaseAndTables.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-08-10T20:11:29.356Z"
+              "WhenOpened": "2025-08-10T20:11:29.356Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

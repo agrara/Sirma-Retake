@@ -13,16 +13,20 @@ namespace Sirma_Final_Exam_Console_App.Model
         public static int GetLastREcordID(string Entity, SqlConnection connection)
         {
             string IDColumn;
+            string tblName;
             switch (Entity.ToLower())
             {
                 case "actor":
                     IDColumn = "ActorID";
+                    tblName = "tbl_Actors";
                     break;
                 case "movie":
                     IDColumn = "MovieID";
+                    tblName = "tbl_Movies";
                     break;
                 case "role":
                     IDColumn = "RoleID";
+                    tblName = "tbl_Roles";
                     break;
                 default:
                     throw new ArgumentException("Invalid table name");

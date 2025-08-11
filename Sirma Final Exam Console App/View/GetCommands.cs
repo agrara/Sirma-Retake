@@ -30,6 +30,10 @@ namespace Sirma_Final_Exam_Console_App.View
             foreach (var command in Commands)
             {
                 Console.WriteLine(command);
+                if (command == "3. ListRoles" || command == "6. InsertRole" || command == "9. UpdateRole")
+                {
+                    Console.WriteLine();
+                }
             }
             Console.WriteLine();
             Console.WriteLine("Choose what to do, select a number.");
